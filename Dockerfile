@@ -1,4 +1,4 @@
-FROM ghcr.io/dlang-dockerized/ldc-xtensa:1.39-bookworm
+FROM docker.io/jmeeuws/ldc-xtensa:1.40-bookworm
 
 RUN apt-get update && \
     apt-get -y install --no-install-recommends \
